@@ -1,6 +1,6 @@
 # Joke Teller
 
-![Project Image](joke-teller/img/joke-teller.png)
+![Project Image](/img/joke-teller.png)
 
 ## Summary
 

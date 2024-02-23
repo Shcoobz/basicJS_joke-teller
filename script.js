@@ -39,7 +39,7 @@ const VoiceRSS = {
       if (4 == t.readyState && 200 == t.status) {
         if (0 == t.responseText.indexOf('ERROR')) throw t.responseText;
         audioElement.src = t.responseText;
-        audioElement.play;
+        audioElement.play();
       }
     }),
       t.open('POST', 'https://api.voicerss.org/', !0),
@@ -107,7 +107,6 @@ const VoiceRSS = {
 };
 
 // Passing Joke to VoiceRSS API
-
 function tellMe(joke) {
   console.log('tell me:', joke);
 
@@ -123,7 +122,7 @@ function tellMe(joke) {
   });
 }
 
-// get jokes from joke api
+// get joke from joke api
 async function getJokes() {
   let joke = '';
   const apiUrl =
@@ -147,4 +146,5 @@ async function getJokes() {
   }
 }
 
-getJokes();
+//  Event Listeners
+button.addEventListener('click', getJokes);

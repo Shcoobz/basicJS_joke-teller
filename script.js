@@ -106,10 +106,14 @@ const VoiceRSS = {
   },
 };
 
-function test() {
+// Passing Joke to VoiceRSS API
+
+function tellMe(joke) {
+  console.log('tell me:', joke);
+
   VoiceRSS.speech({
     key: 'eccbfed46e934467b7eba1b07b7e2cf8',
-    src: 'Hello, world!',
+    src: joke,
     hl: 'en-us',
     v: 'Linda',
     r: 0,
@@ -118,8 +122,6 @@ function test() {
     ssml: false,
   });
 }
-
-// test();
 
 // get jokes from joke api
 async function getJokes() {
@@ -136,6 +138,8 @@ async function getJokes() {
     } else {
       joke = data.joke;
     }
+
+    tellMe(joke);
 
     // console.log(joke);
   } catch (error) {

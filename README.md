@@ -4,7 +4,7 @@
 
 ## Summary
 
-Welcome to Joke Teller! This application provides a fun and interactive way to hear random jokes, especially focusing on programming humor. It features a simple, user-friendly interface that allows users to listen to a joke with just a click of a button.
+Joke Teller provides a fun and interactive way to hear random jokes, especially focusing on programming humor. It features a simple, user-friendly interface that allows users to listen to a joke with just a click of a button.
 
 The core functionality includes:
 

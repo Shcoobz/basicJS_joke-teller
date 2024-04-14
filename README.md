@@ -1,6 +1,6 @@
-# [LIVE DEMO](https://shcoobz.github.io/joke-teller/) -> Joke Teller
+# basicJS_Joke Teller: [LIVE DEMO](https://shcoobz.github.io/basicJS_joke-teller/)
 
-![Project Image](/img/joke-teller.png)
+![Project Image](/img/basicJS_joke-teller.png)
 
 ## Summary
 

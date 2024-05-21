@@ -46,4 +46,4 @@ While handling API keys securely is crucial for protecting sensitive data and se
 
 _Note: This document provides an overview of Joke Teller. For detailed instructions and more information, please refer to the source code documentation._
 
-_This project has been enhanced and converted into a React-based application, which can be viewed [here](https://github.com/Shcoobz/react_joke-teller/). The React version integrates more advanced state management and component-based architecture for improved maintainability and scalability._
+_This project has been enhanced and converted into a React-based application, which can be viewed [here](https://github.com/Shcoobz/advancedJS_joke-teller/). The React version integrates more advanced state management and component-based architecture for improved maintainability and scalability._
